@@ -7,11 +7,13 @@ import { TestComponent } from './components/test/test.component';
 
 const routes: Routes = [
   {
+    // this route for router outlet name = 'sidebar'
     path: 'component-aux',
     component: ComponentAuxComponent,
     outlet: 'sidebar'
   },
   {
+    // this route for router outlet name = 'test'
     path: 'second-outlet-test',
     component: TestComponent,
     outlet: 'test'
